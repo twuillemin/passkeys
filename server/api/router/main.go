@@ -73,6 +73,7 @@ func RouteWellKnown(parent *echo.Group) {
 
 	group := parent.Group("/.well-known")
 	group.GET("/jwks.json", wellKnownHandler.GetPublicKeys)
+	group.GET("/assetlinks.json", wellKnownHandler.GetAssetLinks)
 }
 
 func RouteCredentials(parent *echo.Group, persister persistence.Persister) {
