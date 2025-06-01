@@ -59,9 +59,9 @@ func (h *WellKnownHandler) GetAssetLinks(ctx echo.Context) error {
 			},
 			Target: AssetLinkTarget{
 				Namespace:   "android_app",
-				PackageName: "com.ctminsights.streamshied",
+				PackageName: "com.example.testpasskey2",
 				FingerPrints: []string{
-					"09:78:B7:BE:CE:72:5D:A6:15:F3:A6:FD:7F:29:BA:EE:1B:AB:6A:14:6C:28:A0:0A:35:54:5F:6E:75:66:4C:F7",
+					"F0:19:A4:58:07:FE:67:A8:0B:C4:B1:7C:48:D6:B7:58:DC:77:F0:D6:A4:B2:FF:58:7D:EF:EA:D8:E2:21:69:DC",
 				},
 			},
 		},
@@ -71,9 +71,9 @@ func (h *WellKnownHandler) GetAssetLinks(ctx echo.Context) error {
 			},
 			Target: AssetLinkTarget{
 				Namespace:   "android_app",
-				PackageName: "com.ctminsights.streamshied",
+				PackageName: "com.example.testpasskey2",
 				FingerPrints: []string{
-					"09:78:B7:BE:CE:72:5D:A6:15:F3:A6:FD:7F:29:BA:EE:1B:AB:6A:14:6C:28:A0:0A:35:54:5F:6E:75:66:4C:F7",
+					"F0:19:A4:58:07:FE:67:A8:0B:C4:B1:7C:48:D6:B7:58:DC:77:F0:D6:A4:B2:FF:58:7D:EF:EA:D8:E2:21:69:DC",
 				},
 			},
 		},
@@ -83,7 +83,7 @@ func (h *WellKnownHandler) GetAssetLinks(ctx echo.Context) error {
 			},
 			Target: AssetLinkTarget{
 				Namespace: "web",
-				Site:      "",
+				Site:      "https://devmobile.ctminsights.com",
 			},
 		},
 	}
