@@ -61,7 +61,7 @@ func (h *WellKnownHandler) GetAssetLinks(ctx echo.Context) error {
 				Namespace:   "android_app",
 				PackageName: "com.example.testpasskey2",
 				FingerPrints: []string{
-					"F0:19:A4:58:07:FE:67:A8:0B:C4:B1:7C:48:D6:B7:58:DC:77:F0:D6:A4:B2:FF:58:7D:EF:EA:D8:E2:21:69:DC",
+					"26:D9:29:99:22:65:43:ED:80:6C:A9:24:8C:01:0B:1B:CF:E4:C9:07:41:92:8E:28:7D:7B:CA:50:B3:F7:68:4E",
 				},
 			},
 		},
@@ -73,7 +73,7 @@ func (h *WellKnownHandler) GetAssetLinks(ctx echo.Context) error {
 				Namespace:   "android_app",
 				PackageName: "com.example.testpasskey2",
 				FingerPrints: []string{
-					"F0:19:A4:58:07:FE:67:A8:0B:C4:B1:7C:48:D6:B7:58:DC:77:F0:D6:A4:B2:FF:58:7D:EF:EA:D8:E2:21:69:DC",
+					"26:D9:29:99:22:65:43:ED:80:6C:A9:24:8C:01:0B:1B:CF:E4:C9:07:41:92:8E:28:7D:7B:CA:50:B3:F7:68:4E",
 				},
 			},
 		},
